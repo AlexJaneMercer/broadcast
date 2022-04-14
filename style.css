@@ -1,0 +1,76 @@
+body {
+    background-color: steelblue;
+}
+
+.hWeather {
+    margin:  20px auto;
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+#countries {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px ;
+}
+
+.whitesmoke{
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.cName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cWeather {
+    font-weight: bold;
+}
+
+.cDegrees {
+    font-weight: bold;
+}
+
+.cIcon {
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.country {
+    border-radius: 30px;
+    min-width: 150px;
+
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    padding: 50px;
+    background-color: white;
+    background-image: url(OpenWeather.png);
+    background-size: 200%;
+}
+
+.country-slider{
+    border-radius: 30px;  
+    padding: 50px;
+    background-color: white;
+    background-image: url(OpenWeather.png);
+    background-size: 200%;
+}
+
+.sl{
+    text-align: center;
+}
+
+#slider{
+    width: 250px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#slider-list{
+    display: flex;
+    transition: all ease 0.2s;
+}
